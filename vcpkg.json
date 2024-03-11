@@ -1,0 +1,7 @@
+{
+  "name": "vcpkgtemplate",
+  "version-string": "1",
+  "dependencies": [
+    "fmt"
+  ]
+}
