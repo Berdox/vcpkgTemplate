@@ -7,6 +7,8 @@ if(NOT CMAKE_TOOLCHAIN_FILE AND EXISTS "${vcpkg}")
   message(STATUS "vcpkg toolchain found: ${CMAKE_TOOLCHAIN_FILE}")
 endif()
 
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 project ("vcpkgTemplate")
 
 # Add source to this project's executable.
