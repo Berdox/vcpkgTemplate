@@ -14,7 +14,7 @@ project ("vcpkgTemplate")
 # Add source to this project's executable.
 add_executable (vcpkgTemplate "src/main.cpp" "include/example.hpp")
 
-find_package(fmt REQUIRED)
+find_package(fmt CONFIG REQUIRED)
 
 target_link_libraries(vcpkgTemplate PRIVATE fmt::fmt)
 
