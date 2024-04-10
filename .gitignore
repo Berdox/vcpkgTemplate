@@ -33,7 +33,7 @@
 
 # directories
 
-out/
+out/build/
 .vs/
 .vscode/
 .idea/
