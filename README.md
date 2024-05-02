@@ -1,5 +1,5 @@
 # vcpkgTemplate
-  A barebone template of an vcpkg manger and cmake project with an exmaple of fmt package built in  
+  A barebone template of an vcpkg manger and cmake project with an example of fmt package built in  
 ## Instructions  
   1. Make an out/build directory in project  
   2. cd into the directory  
